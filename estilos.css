@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+.contenedor{
+    background-image: url('img/fondoamor.jpg');
+    height: 100vh;
+    padding: auto;
+    text-align: center;
+}
+p{
+    font-size: 50px;
+    color: rgb(205, 224, 204);
+    width: 180vh;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+    color: rgb(235, 54, 99);
+    border: 50px rgb(51, 226, 226);
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+    
+}
+
+#noBtn{
+    position: absolute;
+}
